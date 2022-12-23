@@ -1,0 +1,120 @@
+@import "./var";
+@import "./reset";
+nav
+{
+    color: $white-color;
+    background-color:$main-color;
+    .logo
+    {
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+        li{
+            margin:0rem 1rem;
+            list-style-type: none;
+            a{
+                text-decoration: none !important;
+                color: $white-color;
+            };
+            a:hover{
+                color: $white-color;
+            };
+        }
+    }
+}
+// .header
+// {
+//     height: 100vh;
+//     background-image: url(../../img/image1.jpg);
+//     // background-position: center center;
+//     background-size: 100%;
+//     color: $white-color;
+//     @include my-flex(center,center);
+    
+//     text-align: center;
+//     button{
+//         background-color: $second-color;
+//         color: $white-color;
+//     }
+// }
+#option
+{
+    text-align: center;
+}
+.ready
+{
+    background-image: url(../../img/lights.jpg);
+    height: 40vh;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    color: $white-color;
+.layer
+{
+    background-color: rgba(0, 0, 0,.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+}
+#info
+{
+    .item
+{
+    button{
+        // background-color: $second-color !important;
+        border: 1px solid $second-color;
+        color: $second-color !important;
+    }
+    button:hover
+    {
+        background-color: $second-color !important;
+        color:$white-color !important;
+    }
+}
+}
+#cards
+{
+    text-align: center;
+        color: $white-color;
+    .col-md-3:nth-child(odd){
+        background-color: $second-color;
+    }
+    .col-md-3:nth-child(even){
+        background-color: $main-color;
+    }
+}
+.what
+{
+    background-image: url(../../img/media.jpg);
+    height: 40vh;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    color: $white-color;
+.layer
+{
+    background-color: rgba(0, 0, 0,.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+}
+.staff
+{
+    background-color: $main-color;
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color: $white-color;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+$main-color:#1b1b1bcb;
+$second-color:#DC3545;
+$white-color:white;
+@mixin my-flex($justfiy,$align){
+    display: flex;
+    justify-content: $justfiy;
+    align-items: $align;
+}
